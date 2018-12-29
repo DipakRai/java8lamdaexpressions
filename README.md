@@ -71,7 +71,6 @@ stringLenCountFunc = (String s) -> s.length (); // you don’t need return and c
 2+3=5
 
 2+4=6
-Java 8 Streams
 
 Why Lambdas?
 
@@ -82,3 +81,4 @@ Why Lambdas?
     Collections improvement through parallel processing
     Java is still inherently an Object-Oriented Language
 
+Java 8 Streams... (to be contd..)
