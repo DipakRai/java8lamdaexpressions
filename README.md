@@ -1,11 +1,12 @@
-Musings While Hopping Districts in Rajasthan For Assembly Elections
-Sample Java 8 programs from java brains video tutorial 
-Java 8 Lambdas
+#Musings While Hopping Districts in Rajasthan For Assembly Elections
+#Java 8 Lambdas
 
-    Java 8 Lambda expressions is pretty synonymous to creating Java Anonymous Inner Classes. But the similarity just ends there.
+    Java 8 Lambda expressions is pretty synonymous to creating Java Anonymous Inner Classes. 
+    But the similarity just ends there.
     A Lambda expression behaves as the implementation of the method in the interface
     Java compilers is doing a type inference with lambdas
-    Java 8 onwards you can have methods implemented in the interfaces. Such interfaces are called functional interfaces. The prerequisites for an interface to qualify as a functional interface is:
+    Java 8 onwards you can have methods implemented in the interfaces. Such interfaces are 
+    called functional interfaces. The prerequisites for an interface to qualify as a functional interface is:
 
     It can have as many concrete methods
     It can have one and only one abstract method
@@ -16,9 +17,16 @@ Java 8 Lambdas
 
 Passing Behaviour in Java
 
-In Java everything is a noun (class) or a thing rather than an action or a verb! An OOPs behaviour. Lambda changes that. It allows the behaviour to be passed as a verb or an action rather than an entity or a class. When you pass the behaviour as an argument you don’t need to have multiple cases as in a switch case or an if else block to handle the behaviour or implementation.
+In Java everything is a noun (class) or a thing rather than an action or a verb! 
+An OOPs behaviour. Lambda changes that. It allows the behaviour to be passed as a 
+verb or an action rather than an entity or a class. When you pass the behaviour 
+as an argument you don’t need to have multiple cases as in a switch case or an 
+if else block to handle the behaviour or implementation.
 
-Before Java 8 the behaviour was passed through a thing or an entity or a class which contained the action. With Java 8 the lambdas allow you to pass the exact action through functions. Functions do not belong to any class but just values which represent a piece of code to be executed.
+Before Java 8 the behaviour was passed through a thing or an entity or a class 
+which contained the action. With Java 8 the lambdas allow you to pass the exact 
+action through functions. Functions do not belong to any class but just values which 
+represent a piece of code to be executed.
 
 Q. Can we assign a block of code to a variable?
 
@@ -69,7 +77,8 @@ Why Lambdas?
 
     Enables functional programming where functions are passed as entities
     Readable and concise code
-    Better APIs than Java 7 since you don’t need to pass a class or an object to a method instead you can pass functions itself
+    Better APIs than Java 7 since you don’t need to pass a class or an object to a method 
+    instead you can pass functions itself
     Collections improvement through parallel processing
     Java is still inherently an Object-Oriented Language
 
